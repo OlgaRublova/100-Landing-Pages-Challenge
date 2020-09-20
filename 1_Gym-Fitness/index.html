@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gyn & Fitness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="#" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#" onclick="toggleMenu();">About</a></li>
+        <li><a href="#" onclick="toggleMenu();">Training</a></li>
+        <li><a href="#" onclick="toggleMenu();">Team</a></li>
+        <li><a href="#" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+</div>
+<section class="banner">
+    <header>
+        <h2 class="logo">Your logo</h2>
+        <div class="toggle" onclick="toggleMenu();"></div>
+    </header>
+    <video src="./Images/production1.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+        <h2>Be Stronger</h2>
+        <h3>Hever Give up</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci autem, dolores ducimus eius eligendi fugit
+            iusto labore libero minima nulla provident quas rem sequi similique suscipit, vero voluptatibus? Quasi,
+            voluptatem.
+        </p>
+        <a href="#">Join us</a>
+    </div>
+    <ul class="sci">
+        <li><a href="#"><img src="Images/facebook.png" alt="fb"></a></li>
+        <li><a href="#"><img src="Images/twitter.png" alt="twitter"></a></li>
+        <li><a href="#"><img src="Images/instagram.png" alt="instagram"></a></li>
+    </ul>
+</section>
+<script type="text/javascript">
+    function toggleMenu() {
+        var menuToggle = document.querySelector('.toggle');
+        var banner = document.querySelector('.banner');
+        menuToggle.classList.toggle('active');
+        banner.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
