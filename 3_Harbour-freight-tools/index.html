@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Harbor Freight Tools</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<header>
+    <ul class="header__top-nav">
+        <li class="header__item">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="#"></a>find your local harbor freight store
+            <i class="fas fa-caret-right"></i>
+        </li>
+        <li class="header__item">
+            <i class="fas fa-user"></i>
+            <a href="#"></a>my account
+            <i class="fas fa-caret-down"></i>
+        </li>
+        <li class="header__item">
+            <i class="fas fa-shopping-cart"></i>
+            <a href="#"></a>my cart
+        </li>
+    </ul>
+    <div class="header__content">
+        <div class="header__logo ">
+            <img src="./img/logo.png" alt="">
+        </div>
+        <div class="header__placeholder">
+            <form action="">
+                <input type="text" placeholder="What are you looking for today?">
+                <i class="fas fa-search"></i>
+            </form>
+        </div>
+    </div>
+<!--    <div class="header__navigation-bar ">-->
+<!--        <ul class="navigation-bar__menu">-->
+
+<!--            <li class="navigation-bar__item">-->
+<!--                <a href="#" class="navigation-bar__link navigation-bar__link&#45;&#45;bold">All Departments</a>-->
+<!--                <i-->
+<!--                        class="fas fa-caret-down"></i>-->
+<!--                <ul class="sub-navigation-bar__menu">-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Power-->
+<!--                        Tools<i class="fas fa-chevron-right"></i></a>-->
+<!--                        <div class="products-details">-->
+
+<!--                            <a href="#" class="product_details__title&#45;&#45;name">Power Tools</a>-->
+<!--                            <a href="#" class="product_details__title&#45;&#45;all-see">See All Power Tools</a>-->
+<!--                            &lt;!&ndash;                                    </div>&ndash;&gt;-->
+<!--                            <a href="#" class="product_details__item products-details__category">Categories</a>-->
+<!--                            <a href="#" class="product_details__item">Drills & Drivers</a>-->
+<!--                            <a href="#" class="product_details__item">Drill & Driver Bits</a>-->
+<!--                            <a href="#" class="product_details__item">Power Saws</a>-->
+<!--                            <a href="#" class="product_details__item">Grinders & Sanders</a>-->
+<!--                            <a href="#" class="product_details__item">Polishers & Buffers</a>-->
+<!--                            <a href="#" class="product_details__item">Rotary & Oscillating Tools</a>-->
+<!--                            <a href="#" class="product_details__item">Routers, Cutout Tools & Lathes</a>-->
+<!--                            <a href="#" class="product_details__item">Demo Hammers</a>-->
+<!--                            <a href="#" class="product_details__item">Mixers, Compactors & Backhoe</a>-->
+<!--                            <a href="#" class="product_details__item">Vacuums & Blowers</a>-->
+<!--                            <a href="#" class="product_details__item">Joiners & Planers</a>-->
+<!--                            <a href="#" class="product_details__item">Heat Guns, Knives & Seamers</a>-->
+<!--                        </div>-->
+
+
+<!--                    </li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Hand-->
+<!--                        Tools<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Air-->
+<!--                        Tools & Compressors<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">-->
+<!--                        Tool Storage & Generators<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Automotive-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Engines &-->
+<!--                        Generators-->
+<!--                        Tools<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Home &-->
+<!--                        Outdoor<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Welding-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Plumbing-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Electrical-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Hardware-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Material-->
+<!--                        Handling<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Building &-->
+<!--                        Construction<i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Painting-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Safety-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+<!--                    <li class="sub-navigation-bar__item"><a href="" class="sub-navigation-bar__link">Lighting-->
+<!--                        <i class="fas fa-chevron-right"></i></a></li>-->
+
+<!--                </ul>-->
+<!--            </li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Gifts</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">New Items</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Clearance</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Gift Cards</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Inside Track Club</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Monthly Ad</a></li>-->
+<!--            <li class="navigation-bar__item"><a href="#" class="navigation-bar__link">Get Coupons</a></li>-->
+
+<!--        </ul>-->
+<!--    </div>-->
+</header>
+
+
+<section class="single-product-review">
+    <div class="single-product-review__picture"></div>
+    <div class="single-product-review__content"></div>
+</section>
+
+<section class="multiple-products-review"></section>
+
+<section class="product-overview">
+    <div class="product-overview__content"></div>
+    <div class="product-overview__details"></div>
+</section>
+
+<section class="specifications"></section>
+
+<section class="warranty"></section>
+
+<section class="bought-together-products"></section>
+<section class="customer-review">
+    <div class="customer-review__score"></div>
+    <div class="customer-review__bar"></div>
+    <div class="customer-review__feedback"></div>
+    <div class="customer-review__rec"></div>
+</section>
+
+<section class="customer-comment">
+    <div class="customer-comment__score"></div>
+    <div class="customer-comment__text"></div>
+    <div class="customer-comment__buyer"></div>
+    <div class="customer-comment__help"></div>
+</section>
+
+<section class="recently-viewed"></section>
+
+<section class="sign-up">
+    <div class="sign-up__coupon">
+        <div class="sign-up__email"></div>
+    </div>
+</section>
+
+<section class="helpful-links">
+    <div class="helpful-links__store"></div>
+    <div class="helpful-links__socials"></div>
+</section>
+
+<footer></footer>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+

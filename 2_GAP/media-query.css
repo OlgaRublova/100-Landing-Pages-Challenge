@@ -1,0 +1,45 @@
+@media only screen and (max-width: 900px) {
+
+    .accountBox, .contentBox {
+        display: none;
+    }
+
+    .logoBox {
+        /*flex: 1;*/
+        /*font-size: 12px;*/
+    }
+
+    .sub-header-1 {
+        display: none;
+    }
+
+    .sub-header-2 {
+        justify-content: flex-start;
+        width: 100%;
+        padding: 0 0 0 220px;
+
+    }
+
+    .sub-header-2__text {
+        width: 100%;
+        justify-content: flex-start;
+        padding: 0;
+    }
+
+    .discount-offers {
+        padding: 0;
+        /*width: 150%;*/
+    }
+
+    .offer {
+        margin: 0 10px;
+        width: 320px;
+        /*overflow-x: auto;*/
+
+    }
+
+    .search-form {
+        display: none;
+
+    }
+}

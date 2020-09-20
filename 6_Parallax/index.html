@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section>
+    <header>
+        <a href="#" class="logo">World</a>
+        <div class="toggle"></div>
+    </header>
+    <img src="images/bg.jpg" alt="bg" class="bg">
+    <img src="images/bird.png" alt="bird" class="bird">
+    <div class="content">
+        <h2>We can save The <br><span>Earth</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi debitis doloremque eligendi excepturi
+            incidunt quas tempore? Aliquid dolor dolores magni quo voluptate. Asperiores fuga impedit ipsam odit, omnis
+            quia sequi?
+        </p>
+        <a href="#">Joing us</a>
+    </div>
+    <ul class="sci">
+        <li><a href="#"><img src="images/facebook.png" alt="fb"></a></li>
+        <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+        <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+    </ul>
+    <div class="textBlocks">
+        <div class="block">
+            <h3>Defenders of Earth</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolore doloribus eius eos fugit illo
+                ipsa iure natus perspiciatis quas quasi suscipit tempora, vel voluptas voluptatibus. Ex odio quod
+                rerum?
+            </p>
+        </div>
+
+        <div class="block">
+            <h3>Defenders of Waters</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda dolore doloribus eius eos fugit illo
+                ipsa iure natus perspiciatis quas quasi suscipit tempora, vel voluptas voluptatibus. Ex odio quod
+                rerum?
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<script type="text/javascript">
+    document.addEventListener("mouseover", function (e) {
+        const bg = document.querySelector('.bg');
+        const bird = document.querySelector('.bird');
+        const content = document.querySelector('.content');
+
+        bg.style.width = 100 + e.pageX/100 + '%';
+        bg.style.height = 100 + e.pageX/100 + '%';
+
+        bird.style.right = 100 + e.pageX/2 + 'px';
+        content.style.left = 100 + e.pageX/2.5 + 'px';
+    })
+</script>
+</body>
+</html>

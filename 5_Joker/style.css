@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+header .logo {
+    max-width: 120px;
+}
+
+header .toggle {
+    max-width: 60px;
+    cursor: pointer;
+}
+
+header .logo img,
+.banner .toggle img {
+    max-width: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 100px;
+    background: url("img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.banner .content {
+    max-width: 550px;
+}
+
+.banner .content h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.banner .content h2 span {
+    font-weight: 800;
+}
+
+.banner .content p {
+    font-size: 1.2em;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    line-height: 1.5em;
+    color: #fff;
+    margin: 15px 0 35px;
+}
+
+.play {
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+.play img {
+    margin-right: 10px;
+    max-width: 50px;
+}
+
+.sci {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    text-decoration: none;
+}
+
+.sci li a img {
+    filter: invert(1);
+    transform: scale(0.6);
+}
+
+
+
+
